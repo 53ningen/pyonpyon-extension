@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "ココアと悪意なき殺意",
+  "name": "鬼と仏と無慈悲なChrome",
   "version": "1.0",
-  "description": "どんなサイトを訪問しても「ご注文はうさぎですか？第１羽」にリダイレクトされる便利なChrome拡張",
+  "description": "どんなサイトを訪問しても「ご注文はうさぎですか??第１羽」にリダイレクトされる便利なChrome拡張",
   "permissions": [
     "tabs", "http://*/*", "https://*/*"
   ],
@@ -11,7 +11,7 @@
   "content_scripts": [
     {
       "matches": ["http://*/*", "http://*/*"],
-      "js": ["chiya.js"]
+      "js": ["anko.js"]
     }
   ]
 }
